@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/pp-electrical/static/css/main.25a4c53e.css",
-    "main.js": "/pp-electrical/static/js/main.9915b722.js",
+    "main.css": "/pp-electrical/static/css/main.46decf68.css",
+    "main.js": "/pp-electrical/static/js/main.0e7d61f4.js",
     "static/media/marcus-reubenstein-8mXAvhTwE7I-unsplash.png": "/pp-electrical/static/media/marcus-reubenstein-8mXAvhTwE7I-unsplash.ffd64a0007909e11d802.png",
+    "static/media/SafeContractor.webp": "/pp-electrical/static/media/SafeContractor.f2ab6d39e646ad0b5b82.webp",
+    "static/media/chas.jpg": "/pp-electrical/static/media/chas.665aec7f2644163468fd.jpg",
+    "static/media/trustmark.png": "/pp-electrical/static/media/trustmark.4b79353fcf7250266236.png",
+    "static/media/candg.png": "/pp-electrical/static/media/candg.f19c0fe44645380e9a8f.png",
+    "static/media/podpoint.png": "/pp-electrical/static/media/podpoint.4978747414a1c9659069.png",
     "static/media/logo-2.png": "/pp-electrical/static/media/logo-2.50a2dfb3bb7a622f363f.png",
     "index.html": "/pp-electrical/index.html",
-    "main.25a4c53e.css.map": "/pp-electrical/static/css/main.25a4c53e.css.map",
-    "main.9915b722.js.map": "/pp-electrical/static/js/main.9915b722.js.map"
+    "main.46decf68.css.map": "/pp-electrical/static/css/main.46decf68.css.map",
+    "main.0e7d61f4.js.map": "/pp-electrical/static/js/main.0e7d61f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.25a4c53e.css",
-    "static/js/main.9915b722.js"
+    "static/css/main.46decf68.css",
+    "static/js/main.0e7d61f4.js"
   ]
 }
