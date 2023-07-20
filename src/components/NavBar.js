@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from "../images/pp-ele-logo.png";
 import logo2 from "../images/logo-2.png";
+import { Link } from 'react-router-dom' 
 import './css/navbar.css'
 
 function NavBar() {
@@ -12,36 +13,33 @@ function NavBar() {
   useEffect(() => setClicked(false), [])
 
   return (
-    <div>
       <nav className="nav-bar">
         <div className="logos">
-          <img className="logo" src={logo} alt="PP Electrical Logo" srcset="" />
+          <img className="logo" src={logo} alt="PP Electrical Logo" />
           <img
             className="logo-text"
             src={logo2}
             alt="PP Electrical Logo"
-            srcset=""
           />
         </div>
         <ul className="page-links">
-          <li className="page">Home</li>
-          <li className="page">Services</li>
-          <li className="page">Clients</li>
-          <li className="page">About Us</li>
-          <li className="contact-btn">Contact Us</li>
+          <li className="page"><Link to="/" className="Link">Home</Link></li>
+          <li className="page"><Link to="/services" className="Link">Services</Link></li>
+          <li className="page"><Link to="/clients" className="Link">Clients</Link></li>
+          <li className="page"><Link to="/about" className="Link">About Us</Link></li>
+          <li className="contact-btn"><Link to="/contact" className="Link">Contact Us</Link></li>
         </ul>
         <div className="dropdown">
-          <i class="icon fa-sharp fa-solid fa-bars" onClick={() => handleClick()}></i>
+          <i className="icon fa-sharp fa-solid fa-bars" onClick={() => handleClick()}></i>
           <ul className={clicked ? "dropdown-links" : "dropdown-links hidden"}>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Clients</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
+            <li className="link">Home</li>
+            <li className="link">Services</li>
+            <li className="link">Clients</li>
+            <li className="link">About Us</li>
+            <li className="link">Contact Us</li>
           </ul>
         </div>
       </nav>
-    </div>
   );
 }
 
