@@ -10,7 +10,7 @@ function NavBar() {
 
   const handleClick = () => setClicked(!clicked)
 
-  useEffect(() => setClicked(false), [])
+  useEffect(() => setClicked(false),[])
 
   return (
       <nav className="nav-bar">
@@ -27,7 +27,7 @@ function NavBar() {
           <li className="page"><Link to="/services" className="Link">Services</Link></li>
           <li className="page"><Link to="/clients" className="Link">Clients</Link></li>
           <li className="page"><Link to="/about" className="Link">About Us</Link></li>
-          <li className="contact-btn"><Link to="/contact" className="Link">Contact Us</Link></li>
+          <Link to="/contact" className="Link"><li className="contact-btn">Contact Us</li></Link>
         </ul>
         <div className="dropdown">
           <i className="icon fa-sharp fa-solid fa-bars" onClick={() => handleClick()}></i>
